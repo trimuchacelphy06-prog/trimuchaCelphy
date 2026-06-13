@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engr. Celphy L. Trimucha, ECT | Academic & Innovation Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Official academic, research, and innovation portfolio of Engr. Celphy L. Trimucha, ECT. Electronics Engineer, Faculty Researcher, Institutional Statistician, and Startup Innovation Mentor.">
+    <meta name="keywords" content="Celphy Trimucha, Electronics Engineering, Faculty Researcher, Statistician, IoT, AI, EcoPET, FishDryPro, EGGSORT, Drive ALERT, Fellowship Baptist College, Philippines, Electronics Technician">
+    <meta name="author" content="Engr. Celphy L. Trimucha">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Engr. Celphy L. Trimucha, ECT | Academic & Innovation Portfolio">
+    <meta property="og:description" content="Bridging engineering education, experimental research, and technology commercialization.">
+    <meta property="og:image" content="Homepage 1.jpg">
+    
+    <!-- Tailwind CSS & Animation Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700&family=Space+Grotesk:wght=400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            950: '#020617',
+                            900: '#0f172a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #fbbf24, #f59e0b, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .nav-active {
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-gray-300 font-sans selection:bg-amber-500 selection:text-black antialiased overflow-x-hidden min-h-screen">
+    
+    <!-- Decorative Background Gradients -->
+    <div class="absolute top-0 left-1/4 w-[35rem] h-[35rem] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-amber-600/5 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute top-1/2 left-2/4 w-[40rem] h-[40rem] bg-purple-600/5 rounded-full blur-[150px] pointer-events-none"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/5 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#home" class="font-display text-xl font-bold tracking-tight text-white flex items-center gap-2 transition transform hover:scale-[1.02]">
+                <span class="text-amber-400">⚡</span> CelphyTrimucha
+            </a>
+
+            <button id="menu-toggle" aria-label="Toggle navigation menu" class="xl:hidden text-gray-400 hover:text-white focus:outline-none text-2xl">
+                ☰
+            </button>
+            <div id="nav-menu" class="hidden xl:flex flex-col xl:flex-row absolute xl:relative top-full xl:top-auto left-0 xl:left-auto w-full xl:w-auto bg-slate-950 xl:bg-transparent border-b xl:border-none border-white/5 p-4 xl:p-0 gap-2 text-xs font-medium text-gray-400">
+                <a href="#home" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="home">Home</a>
+                <a href="#about" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="about">About & Values</a>
+                <a href="#experience" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="experience">Experience</a>
+                <a href="#education" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="education">Education</a>
+                <a href="#incubations" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="incubations">Incubated Startups</a>
+                <a href="#advisories" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="advisories">Research Advisories</a>
+                <a href="#training" class="nav-btn px-3 py-1.5 hover:text-white rounded transition" data-target="training">Accreditations</a>
+                <a href="#contact" class="xl:ml-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-4 py-1.5 rounded-lg text-center transition shadow-lg shadow-blue-600/20">Connect</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Header Section -->
+    <header id="home" class="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center min-h-[70vh]">
+            <div class="lg:col-span-7 space-y-6 animate__animated animate__fadeInLeft">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/5 rounded-full border border-white/10 text-xs text-amber-400 font-semibold tracking-wide uppercase">
+                    <span>🚀 Educator</span> • <span>ECE</span> • <span>ECT</span>
+                </div>
+                <h1 class="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-none">
+                    ENGR. CELPHY L. TRIMUCHA, ECT
+                </h1>
+                <p class="text-xl md:text-2xl font-medium text-gradient">
+                    Electronics Engineer | Faculty Researcher | Innovation Mentor
+                </p>
+                <p class="text-gray-400 text-base md:text-lg max-w-2xl leading-relaxed">
+                    Advancing engineering education through rigorous scientific research, laboratory operations management, and structured technology commercialization.
+                </p>
+                <div class="pt-4 flex flex-wrap gap-4">
+                    <a href="#advisories" class="bg-gradient-to-r from-blue-600 to-cyan-600 hover:scale-[1.02] text-white font-medium px-6 py-3.5 rounded-xl transition duration-300 shadow-lg shadow-blue-600/20 text-center">
+                        View Research Advisories
+                    </a>
+                    <a href="CV Celphy L. Trimucha.pdf" download="CV Celphy L. Trimucha" aria-label="Download professional CV" class="bg-white/5 hover:bg-white/10 text-white font-medium px-6 py-3.5 rounded-xl border border-white/10 transition duration-300 text-center flex items-center gap-2">
+                        📥 Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 flex justify-center lg:justify-end animate__animated animate__fadeInRight">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-amber-500 to-blue-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
+                    <div class="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-slate-900 bg-slate-800">
+                        <img src="Homepage 1.jpg" loading="lazy" decoding="async" alt="Engr. Celphy L. Trimucha Headshot" class="w-full h-full object-cover transition transform duration-700 group-hover:scale-105">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Metrics Dashboard Area -->
+        <div class="max-w-7xl mx-auto mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 animate__animated animate__fadeInUp">
+            <div class="glass-panel p-6 rounded-2xl text-center border border-white/5">
+                <h3 class="text-3xl sm:text-4xl font-display font-bold text-amber-400">30+</h3>
+                <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider font-semibold">Research Projects</p>
+            </div>
+            <div class="glass-panel p-6 rounded-2xl text-center border border-white/5">
+                <h3 class="text-3xl sm:text-4xl font-display font-bold text-blue-400">100+</h3>
+                <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider font-semibold">Students Mentored</p>
+            </div>
+            <div class="glass-panel p-6 rounded-2xl text-center border border-white/5">
+                <h3 class="text-3xl sm:text-4xl font-display font-bold text-emerald-400">2</h3>
+                <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider font-semibold">Int'l Conferences</p>
+            </div>
+            <div class="glass-panel p-6 rounded-2xl text-center border border-white/5">
+                <h3 class="text-3xl sm:text-4xl font-display font-bold text-purple-400">10+</h3>
+                <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider font-semibold">Awards & Recognitions</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- About & Values Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-12 gap-10 items-start">
+            <div class="lg:col-span-7 space-y-6">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Professional Biography</h2>
+                <div class="glass-panel rounded-3xl p-6 md:p-8 border border-white/5 space-y-4 text-gray-300 text-sm md:text-base leading-relaxed">
+                    <p>
+                        Engr. Celphy L. Trimucha, ECT is an engineering educator, academic researcher, statistician, and technology innovation mentor. Specializing in embedded systems, the Internet of Things (IoT), industrial automation, and renewable energy, he serves as a faculty lead dedicated to bridging the gap between classroom pedagogy and practical industry deployment.
+                    </p>
+                    <p>
+                        As an institutional statistician and laboratory administrator, he manages specialized technology resources while lending statistical design expertise to multidisciplinary validation projects. His mentorship focus emphasizes engineering commercialization, leading student startup ventures to notable local and national recognition.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-r from-amber-500/10 to-blue-600/10 rounded-2xl p-6 border border-amber-500/20 shadow-xl">
+                    <h3 class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-2 font-mono">🎯 Personal Mission</h3>
+                    <p class="text-white text-base font-medium italic">
+                        "To inspire future engineers through innovation, research excellence, and technology-driven solutions that address real-world challenges."
+                    </p>
+                </div>
+            </div>
+            <div class="lg:col-span-5 space-y-6">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Core Values</h2>
+                <div class="grid gap-3">
+                    <div class="glass-panel p-4 rounded-xl border-l-4 border-amber-400 flex items-center gap-4 hover:bg-white/5 transition">
+                        <span class="text-2xl">💡</span>
+                        <div>
+                            <h4 class="text-white font-bold text-sm">Innovation</h4>
+                            <p class="text-xs text-gray-400 mt-0.5">Developing inventive, technology-driven resolutions to real-world complexities.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-4 rounded-xl border-l-4 border-blue-400 flex items-center gap-4 hover:bg-white/5 transition">
+                        <span class="text-2xl">✨</span>
+                        <div>
+                            <h4 class="text-white font-bold text-sm">Excellence</h4>
+                            <p class="text-xs text-gray-400 mt-0.5">Upholding rigorous academic instruction and technical research standards.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-4 rounded-xl border-l-4 border-emerald-400 flex items-center gap-4 hover:bg-white/5 transition">
+                        <span class="text-2xl">🛡️</span>
+                        <div>
+                            <h4 class="text-white font-bold text-sm">Integrity</h4>
+                            <p class="text-xs text-gray-400 mt-0.5">Ensuring ethical precision, empirical accuracy, and honest data auditing.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-4 rounded-xl border-l-4 border-cyan-400 flex items-center gap-4 hover:bg-white/5 transition">
+                        <span class="text-2xl">🌱</span>
+                        <div>
+                            <h4 class="text-white font-bold text-sm">Sustainability</h4>
+                            <p class="text-xs text-gray-400 mt-0.5">Advancing eco-conscious frameworks and automated resource recycling.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-4 rounded-xl border-l-4 border-purple-400 flex items-center gap-4 hover:bg-white/5 transition">
+                        <span class="text-2xl">📚</span>
+                        <div>
+                            <h4 class="text-white font-bold text-sm">Lifelong Learning</h4>
+                            <p class="text-xs text-gray-400 mt-0.5">Continuously adapting expertise alongside emerging industrial paradigms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/30 border-t border-white/5">
+        <div class="max-w-6xl mx-auto space-y-16">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Professional Experience</h2>
+                <p class="text-gray-400 mt-2 text-xs uppercase tracking-wider font-semibold">Institutional Tenures & Field Technical Operations</p>
+            </div>
+            
+            <!-- Experience Block 1: Fellowship Baptist College -->
+            <div class="glass-panel rounded-3xl p-6 md:p-10 relative overflow-hidden border-l-4 border-amber-400 shadow-xl">
+                <div class="mb-8 rounded-2xl overflow-hidden border border-white/10 max-h-[440px] shadow-xl bg-slate-900/40">
+                    <img src="Professional Summary 1.png" loading="lazy" decoding="async" alt="Fellowship Baptist College Laboratory Documentation" class="w-full h-full object-cover">
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-6 mb-8 gap-4">
+                    <div>
+                        <h3 class="font-display text-2xl font-bold text-white tracking-tight">Fellowship Baptist College</h3>
+                        <p class="text-amber-400 font-medium text-sm mt-1">Multifaceted Academic Leadership, Research Advisory & Laboratory Management</p>
+                    </div>
+                    <span class="bg-amber-400/10 text-amber-400 text-sm font-bold px-4 py-1.5 rounded-full border border-amber-400/20 uppercase tracking-widest font-mono shrink-0">
+                        2019 – 2026
+                    </span>
+                </div>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-8 bg-white/5 p-5 rounded-xl border border-white/5">
+                    Over the past several years, I have played a multifaceted role in advancing engineering education, research excellence, innovation development, and laboratory operations within Fellowship Baptist College. My responsibilities extend beyond classroom instruction, encompassing research leadership, innovation mentorship, statistical consultancy, laboratory management, and institutional support for technology-driven initiatives.
+                </p>
+                
+                <div class="space-y-6 text-xs sm:text-sm text-gray-400">
+                    <!-- Subsection 1 -->
+                    <div class="bg-black/30 p-6 rounded-xl border border-white/5">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">👨‍🏫 1. Engineering Education and Academic Leadership</h4>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            As a College Instructor, I deliver courses in Electronics Engineering and related disciplines, emphasizing experiential learning, project-based instruction, and industry-aligned competencies. I actively integrate emerging technologies such as Internet of Things (IoT), Artificial Intelligence (AI), Embedded Systems, Renewable Energy Systems, and Automation into classroom and laboratory activities.
+                        </p>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            I have mentored numerous undergraduate researchers and engineering student teams, guiding them from concept development to prototype implementation, research presentation, and innovation pitching. Through these efforts, students gain practical exposure to real-world engineering challenges while developing research and entrepreneurial skills.
+                        </p>
+                    </div>
+
+                    <!-- Subsection 2 -->
+                    <div class="bg-black/30 p-6 rounded-xl border border-white/5">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">🔬 2. Research Leadership and Innovation Development</h4>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            I lead and support institutional research initiatives focused on embedded systems, smart agriculture, renewable energy technologies, automation, and intelligent monitoring systems. My involvement covers the entire research lifecycle, including:
+                        </p>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 pl-6 mt-3 text-gray-300 font-medium">
+                            <li class="flex items-center gap-2">⚡ Research conceptualization & proposal builds</li>
+                            <li class="flex items-center gap-2">⚡ Experimental design & methodology choices</li>
+                            <li class="flex items-center gap-2">⚡ Prototype hardware design & fabrication</li>
+                            <li class="flex items-center gap-2">⚡ Full hardware system testing & validation</li>
+                            <li class="flex items-center gap-2">⚡ Detailed statistical data analysis & interpretation</li>
+                            <li class="flex items-center gap-2">⚡ Research dissemination & publication preparation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Subsection 3 -->
+                    <div class="bg-black/30 p-6 rounded-xl border border-white/5">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">💡 3. Startup Mentorship and Technology Commercialization</h4>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            Beyond research, I actively support innovation commercialization and startup development. I mentor student innovators and research teams in transforming engineering prototypes into viable startup concepts through business model development, pitching preparation, and incubation activities. Notable contributions include mentorship of projects under DTI MentorMatch and innovation competitions.
+                        </p>
+                    </div>
+
+                    <!-- Subsection 4 -->
+                    <div class="bg-black/30 p-6 rounded-xl border border-white/5">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">📊 4. Statistical and Research Consultancy</h4>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            As the institution's In-House Statistician, I provide quantitative research support to undergraduate, senior high school, and faculty researchers. My expertise includes:
+                        </p>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 pl-6 mt-3 text-gray-300">
+                            <li class="flex items-center gap-2">📊 Statistical treatment selection</li>
+                            <li class="flex items-center gap-2">🧪 Experimental design development</li>
+                            <li class="flex items-center gap-2">📉 Hypothesis testing</li>
+                            <li class="flex items-center gap-2">📈 Data interpretation & analysis</li>
+                            <li class="flex items-center gap-2">🔬 Research methodology validation</li>
+                            <li class="flex items-center gap-2">📝 Research manuscript review</li>
+                        </ul>
+                    </div>
+
+                    <!-- Subsection 5 -->
+                    <div class="bg-black/30 p-6 rounded-xl border border-white/5">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">🛠️ 5. Laboratory Operations and Management</h4>
+                        <p class="pl-6 mt-2 leading-relaxed text-gray-300">
+                            As Digital Laboratory In-Charge, I oversee the operation, maintenance, and development of engineering laboratories that support instruction, research, and innovation activities. Key responsibilities include:
+                        </p>
+                        <ul class="space-y-1.5 pl-6 mt-3 text-gray-300 list-disc list-inside">
+                            <li>Laboratory planning and technological deployment development.</li>
+                            <li>Equipment procurement setups and comprehensive engineering specification preparation.</li>
+                            <li>Asset inventory tracking, maintenance scheduling, and accountability management.</li>
+                            <li>Advanced research equipment operations supervision.</li>
+                            <li>Laboratory environmental and technical safety compliance implementation.</li>
+                            <li>Technical hardware troubleshooting support for student engineering projects and physical experiments.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Impact Framework -->
+                    <div class="mt-6 p-6 bg-gradient-to-r from-amber-500/10 to-orange-500/5 rounded-xl border border-amber-500/20">
+                        <h4 class="text-amber-400 font-bold font-display text-sm uppercase tracking-wider mb-3">Impact and Contributions</h4>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-200 font-medium">
+                            <li class="flex items-center gap-2">✨ Mentoring award-winning student innovators</li>
+                            <li class="flex items-center gap-2">✨ Producing internationally presented research outputs</li>
+                            <li class="flex items-center gap-2">✨ Supporting startup incubation and commercialization initiatives</li>
+                            <li class="flex items-center gap-2">✨ Strengthening engineering laboratory infrastructure capabilities</li>
+                            <li class="flex items-center gap-2">✨ Providing statistical expertise for multidisciplinary research</li>
+                            <li class="flex items-center gap-2">✨ Promoting technology-driven solutions addressing community and industry challenges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Block 2: Inter-Continental Systems Integrators Inc. -->
+            <div class="glass-panel rounded-3xl p-6 md:p-10 relative overflow-hidden border-l-4 border-blue-500 shadow-xl">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-6 mb-8 gap-4">
+                    <div>
+                        <h3 class="font-display text-2xl font-bold text-white tracking-tight">Inter-Continental Systems Integrators Inc.</h3>
+                        <p class="text-blue-400 font-medium text-sm mt-1">Dual Field Operations & Systems Engagement Roles</p>
+                    </div>
+                    <span class="bg-blue-400/10 text-blue-400 text-sm font-bold px-4 py-1.5 rounded-full border border-blue-400/20 uppercase tracking-widest font-mono shrink-0">
+                        2018 - 2019
+                    </span>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-black/20 p-5 rounded-xl border border-white/5 space-y-3">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">
+                            <span class="text-blue-400">🌐</span> Area Site Supervisor (Visayas)
+                        </h4>
+                        <ul class="space-y-1.5 text-xs sm:text-sm text-gray-400 list-disc list-inside">
+                            <li>Managed engineering hardware deployment projects within regional territories.</li>
+                            <li>Supervised complex field operations and contractor timelines across multiple operational locations.</li>
+                            <li>Coordinated local procurement logistics, material provisions, and site supply pipelines.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-black/20 p-5 rounded-xl border border-white/5 space-y-3">
+                        <h4 class="text-white font-bold font-display text-base flex items-center gap-2">
+                            <span class="text-cyan-400">💼</span> Technical Sales Engineer
+                        </h4>
+                        <ul class="space-y-1.5 text-xs sm:text-sm text-gray-400 list-disc list-inside">
+                            <li>Formulated and delivered tailored technical solutions architectures to enterprise clients.</li>
+                            <li>Supported advanced engineering integration projects and programmatic field changes.</li>
+                            <li>Ensured structural blueprints and system builds complied with strict technical specifications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-display text-3xl font-bold text-white mb-12 text-center tracking-tight">Educational Background</h2>
+            <div class="relative border-l border-white/10 pl-6 ml-4 space-y-12">
+                <div class="relative group">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-amber-500 ring-4 ring-amber-500/20"></div>
+                    <span class="text-xs font-semibold text-amber-400 uppercase tracking-wider">2022 – Present</span>
+                    <h3 class="font-display text-xl font-bold text-white mt-1">Master in Engineering Major in Electronics and Communications Engineering</h3>
+                    <p class="text-gray-400 text-sm font-medium">University of St. La Salle</p>
+                    <p class="text-gray-500 text-xs mt-2 max-w-2xl">Focused on advanced telecommunications, electronic systems design, engineering research methodologies, and emerging technology integration.</p>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 ring-4 ring-blue-500/20"></div>
+                    <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider">2014 – 2017</span>
+                    <h3 class="font-display text-xl font-bold text-white mt-1">Bachelor of Science in Electronics Engineering</h3>
+                    <p class="text-gray-400 text-sm font-medium">Fellowship Baptist College</p>
+                    <p class="text-gray-500 text-xs mt-2 max-w-2xl">Studied fundamental electronics principles, embedded systems engineering, communications architecture, signal instrumentation, and digital logic systems design.</p>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-purple-500 ring-4 ring-purple-500/20"></div>
+                    <span class="text-xs font-semibold text-purple-400 uppercase tracking-wider">2003 – 2007</span>
+                    <h3 class="font-display text-xl font-bold text-white mt-1">Secondary Education — <span class="text-amber-400">Valedictorian</span></h3>
+                    <p class="text-gray-400 text-sm font-medium">Bantayan National High School – Baras Diutay Extension</p>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-emerald-500 ring-4 ring-emerald-500/20"></div>
+                    <span class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">1997 – 2003</span>
+                    <h3 class="font-display text-xl font-bold text-white mt-1">Elementary Education — <span class="text-amber-400">Valedictorian</span></h3>
+                    <p class="text-gray-400 text-sm font-medium">Barras Diutay Elementary School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incubated Startups Section -->
+    <section id="incubations" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/20 border-t border-white/5">
+        <div class="max-w-6xl mx-auto space-y-12">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Incubated Startups & Commercial Prototypes</h2>
+                <p class="text-xs text-gray-400 uppercase font-semibold mt-2 tracking-wider">Mentored Student Innovations & Intellectual Infrastructure Acceleration Projects</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Startup 1 -->
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between border border-white/5 border-b-2 border-amber-500">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] text-amber-400 font-mono tracking-widest uppercase font-bold">Automation / Manufacturing</span>
+                            <span class="bg-amber-400/10 text-amber-400 text-[10px] font-bold px-2 py-0.5 rounded">Winner</span>
+                        </div>
+                        <h3 class="font-display font-bold text-white text-lg">EcoPET Polymer Recycling</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">A sustainable circular-economy engineering innovation that slices waste plastic bottles into uniform ribbons and passes them through a specialized heating matrix to output functional, calibrated 3D printer filament.</p>
+                    </div>
+                </div>
+                <!-- Startup 2 -->
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between border border-white/5 border-b-2 border-blue-500">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] text-blue-400 font-mono tracking-widest uppercase font-bold">Food Engineering</span>
+                            <span class="bg-blue-400/10 text-blue-400 text-[10px] font-bold px-2 py-0.5 rounded">Finalist</span>
+                        </div>
+                        <h3 class="font-display font-bold text-white text-lg">FishDryPro: Anchovy Dehydrator</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">An automated agricultural process appliance designed to replace open-air sun drying. Strictly balances airflow parameters and thermal loads to rapidly extract target moisture profile counts.</p>
+                    </div>
+                </div>
+                <!-- Startup 3 -->
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between border border-white/5 border-b-2 border-purple-500">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] text-purple-400 font-mono tracking-widest uppercase font-bold">BioMed Tech / Edge AI</span>
+                            <span class="bg-purple-400/10 text-purple-400 text-[10px] font-bold px-2 py-0.5 rounded">Vetted</span>
+                        </div>
+                        <h3 class="font-display font-bold text-white text-lg">Drive ALERT Tracker</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">A specialized edge intelligence node fusing portable brainwave EEG sensors and camera-driven computer vision arrays to evaluate live operator attention and cognitive performance states.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comprehensive Research Advisories Section -->
+    <section id="advisories" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+        <div class="max-w-6xl mx-auto space-y-16">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Research Advisory Portfolio</h2>
+                <p class="text-xs text-gray-400 uppercase font-semibold mt-2 tracking-wider">Technical and Statistical Guidance Ledger</p>
+            </div>
+
+            <!-- College Engineering Thesis Segment -->
+            <div class="space-y-10">
+                <div class="border-b border-white/10 pb-2">
+                    <h3 class="font-display text-xl font-semibold text-white flex items-center gap-2">
+                        <span class="text-blue-500">🎓</span> Undergraduate Technical Guidance
+                    </h3>
+                </div>
+
+                <!-- Academic Year 2026 -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="h-px bg-amber-500/30 flex-grow"></span>
+                        <h4 class="font-mono text-xs uppercase tracking-widest font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">Academic Year 2026</h4>
+                        <span class="h-px bg-amber-500/30 flex-grow"></span>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-base font-display">EGGSORT: A Multi-Microcontroller-Based System for Crack Detection, Weight Classification, and Packaging of Eggs with Telegram Notification</h5>
+                            <div class="inline-block bg-white/5 text-amber-400 text-[11px] font-medium px-2 py-0.5 rounded border border-white/10">Core Focus: Mechatronics, Computer Vision, and Distributed Processing</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-2">This project tackles multi-stage agricultural automation. Because handling, weighing, and optical inspection happen simultaneously, using a multi-microcontroller architecture (like SPI or I2C communication between nodes) prevents processing bottlenecks. It combines load cells for weight grading, computer vision or acoustic sensors for crack detection, and an IoT gateway to push real-time yield updates to users via Telegram.</p>
+                        </div>
+                        <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-base font-display">Drive ALERT (Driver Attention Level & Eye Response Tracker) Using B.R.A.I.N. Technology (Brainwave & Raspberry Pi AI Network)</h5>
+                            <div class="inline-block bg-white/5 text-amber-400 text-[11px] font-medium px-2 py-0.5 rounded border border-white/10">Core Focus: Edge AI, Biomedical Signal Processing, and Computer Vision</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-2">A high-stakes safety system that blends physiological and behavioral tracking. It uses a portable EEG (brainwave) sensor to monitor cognitive fatigue alongside a Raspberry Pi-driven camera running AI facial landmarks to track eye closure (blink duration/frequency). The primary engineering challenge is real-time sensor fusion and minimizing false positives in a moving vehicle environment.</p>
+                        </div>
+                        <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-base font-display">Arduino-Based CNC Styrofoam Cutting System</h5>
+                            <div class="inline-block bg-white/5 text-amber-400 text-[11px] font-medium px-2 py-0.5 rounded border border-white/10">Core Focus: Precision Motion Control and Mechatronics</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-2">A classic Cartesian coordinate automation project. It utilizes an Arduino running GRBL firmware to translate G-code into precise stepper motor movements, controlling a heated nichrome wire. The core focus here is mechanical rigidity, precise thermal control of the wire to prevent melting/snagging, and smooth multi-axis interpolation.</p>
+                        </div>
+                        <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-base font-display">Design and Development of a Solar-Powered IoT-Based Arduino Egg Incubator System</h5>
+                            <div class="inline-block bg-white/5 text-amber-400 text-[11px] font-medium px-2 py-0.5 rounded border border-white/10">Core Focus: Thermal Dynamics, Renewable Energy, and IoT Feedback Loops</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-2">An off-grid agricultural system requiring precise environmental control. The system must strictly regulate temperature and humidity using closed-loop PID control via Arduino. The engineering challenge lies in energy budgeting—ensuring the solar photovoltaic and battery storage system can sustain the heating elements and automatic turning mechanisms 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Year 2025 -->
+                <div class="pt-4">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="h-px bg-blue-500/30 flex-grow"></span>
+                        <h4 class="font-mono text-xs uppercase tracking-widest font-bold text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">Academic Year 2025</h4>
+                        <span class="h-px bg-blue-500/30 flex-grow"></span>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="glass-panel p-5 rounded-xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-sm font-display">Eco-PET Filament: A Microcontroller-Based Pultrusion System For Recycling Pet Bottles Into 3d Printing Filament</h5>
+                            <div class="text-[10px] text-blue-400 font-semibold uppercase tracking-wider block">Thermal Mechanics & Material Processing</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A brilliant circular-economy project. It involves stripping plastic bottles into uniform ribbons and pulling them through a heated nozzle (pultrusion) to reform them into 1.75mm 3D printing filament. The microcontroller must precisely maintain the melting temperature and pull-rate speed to prevent variations in filament diameter.</p>
+                        </div>
+                        <div class="glass-panel p-5 rounded-xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-sm font-display">Design And Development Of Anchovy Fish Dehydrator System</h5>
+                            <div class="text-[10px] text-blue-400 font-semibold uppercase tracking-wider block">Food Engineering & Process Automation</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A targeted agricultural appliance designed to replace traditional open-air sun drying. The system controls temperature and airflow to rapidly remove moisture from anchovies while preserving nutritional value. Key metrics involve moisture extraction rate (MER) and energy efficiency.</p>
+                        </div>
+                        <div class="glass-panel p-5 rounded-xl border border-white/5 space-y-2">
+                            <h5 class="text-white font-bold text-sm font-display">Safety Helmet-Ignition With Anti-Theft System For Motorcycle</h5>
+                            <div class="text-[10px] text-blue-400 font-semibold uppercase tracking-wider block">Wireless Interlocking & Vehicle Safety</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A safety system that forces rider compliance. The motorcycle's ignition system is hardwired to a wireless receiver that remains locked until an RF or Bluetooth signal confirms the helmet is securely buckled on the rider's head. It also integrates an anti-theft relay to cut fuel or power if unauthorized tampering is detected.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Year 2024 & 2023 -->
+                <div class="pt-4">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="h-px bg-purple-500/30 flex-grow"></span>
+                                <h4 class="font-mono text-xs uppercase tracking-widest font-bold text-purple-400 bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">Academic Year 2024</h4>
+                                <span class="h-px bg-purple-500/30 flex-grow"></span>
+                            </div>
+                            <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                                <h5 class="text-white font-bold text-base font-display">Arduino Snacks Vending Machine with Thin Film Transistor Capacitive Touch Screen and Refill Mechanism</h5>
+                                <div class="text-[10px] text-purple-400 font-semibold uppercase tracking-wider block">Human-Machine Interface & Electromechanical Dispensing</div>
+                                <p class="text-xs text-gray-400 leading-relaxed pt-1">A consumer-facing automation project. It pairs a capacitive TFT touchscreen for a responsive user interface with an array of spring-coils driven by continuous rotation servos or stepper motors. The refill mechanism introduces an inventory tracking feature, alerting operators when stock is low.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="h-px bg-cyan-500/30 flex-grow"></span>
+                                <h4 class="font-mono text-xs uppercase tracking-widest font-bold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">Academic Year 2023</h4>
+                                <span class="h-px bg-cyan-500/30 flex-grow"></span>
+                            </div>
+                            <div class="glass-panel p-6 rounded-2xl border border-white/5 space-y-2">
+                                <h5 class="text-white font-bold text-base font-display">Smart Hydroponic Farming Technology: Arduino-Based Controlled Environment For Lettuce Cultivation with SMS Notification</h5>
+                                <div class="text-[10px] text-cyan-400 font-semibold uppercase tracking-wider block">Hydroponics, Water Chemistry, & Telemetry</div>
+                                <p class="text-xs text-gray-400 leading-relaxed pt-1">An automated indoor farming system that keeps nutrient solutions at optimal levels. The Arduino monitors and self-corrects pH levels, Electrical Conductivity (EC), and water temperature. If any parameter falls outside the thresholds required for lettuce, it updates the farmer via GSM-based SMS alerts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Senior High School STEM Segment -->
+            <div class="space-y-6 pt-10 border-t border-white/5">
+                <div class="border-b border-white/10 pb-2">
+                    <h3 class="font-display text-xl font-semibold text-white flex items-center gap-2">
+                        <span class="text-emerald-500">🔬</span> Senior High School STEM Research Advisory
+                    </h3>
+                </div>
+                <div class="text-left max-w-2xl">
+                    <p class="text-xs text-gray-400 font-semibold uppercase tracking-wider">Nurturing Foundational Scientific Inquiry and Applied Prototyping (2026)</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="glass-panel p-5 rounded-xl border border-white/5 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <h4 class="text-white font-bold text-sm font-display">BINDUINO: A Sensor-Integrated Arduino-Based Smart Bin for Automated Solid Waste Segregation</h4>
+                            <div class="text-[10px] text-amber-400 font-mono bg-amber-500/10 px-2 py-0.5 rounded inline-block border border-amber-500/10">Prototyping & Sensor Logic</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">An introductory automation project that uses inductive, capacitive, or optical proximity sensors to distinguish between waste types (e.g., metals vs. plastics vs. organic matter). The Arduino acts as the decision engine, triggering servo motors to route the waste into the correct internal compartment.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-xl border border-white/5 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <h4 class="text-white font-bold text-sm font-display">Growth, Morphological Traits, And Stress Responses Of Lactuca Sativa ‘Green Ice’ Under Varying Artificial Light Photoperiods</h4>
+                            <div class="text-[10px] text-blue-400 font-mono bg-blue-500/10 px-2 py-0.5 rounded inline-block border border-blue-500/10">Controlled Environment Agriculture</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A pure scientific study assessing how different durations of artificial light exposure (photoperiods) affect the growth metrics (leaf area, wet weight) and stress signs of Green Ice lettuce. It provides excellent baseline data for lighting schedules in indoor farming setups.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-xl border border-white/5 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <h4 class="text-white font-bold text-sm font-display">Repurposing Used Cooking Oil Into Sustainable Lamp Fuels: A Comparative Study Of Different Oil Types As Liquid Light Sources</h4>
+                            <div class="text-[10px] text-purple-400 font-mono bg-purple-500/10 px-2 py-0.5 rounded inline-block border border-purple-500/10">Biofuels & Green Chemistry</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A comparative material science project exploring the chemical viability of waste cooking oil as an alternative fuel. Students evaluate burn rate, soot emission, and luminous intensity across different oil types (e.g., palm, coconut, canola) to find the cleanest, most efficient fuel mix.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-xl border border-white/5 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <h4 class="text-white font-bold text-sm font-display">Enhancing Solar Panel Photovoltaic Efficiency Using Mirrors And Lens-Based Light Concentrators</h4>
+                            <div class="text-[10px] text-emerald-400 font-mono bg-emerald-500/10 px-2 py-0.5 rounded inline-block border border-emerald-500/10">Applied Physics & Solar Optics</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">An experimental research project aiming to increase power output without buying larger solar panels. By using geometric optics (mirrors to reflect light or Fresnel lenses to concentrate it), students measure the trade-off between increased voltage output and performance-degrading heat.</p>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-xl border border-white/5 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <h4 class="text-white font-bold text-sm font-display">The Innovative Use Of Rice-Husk Waste For Manufacturing Eco-Friendly Food Packaging</h4>
+                            <div class="text-[10px] text-cyan-400 font-mono bg-cyan-500/10 px-2 py-0.5 rounded inline-block border border-cyan-500/10">Bioplastics & Circular Economy</div>
+                            <p class="text-xs text-gray-400 leading-relaxed pt-1">A materials engineering study that takes an agricultural byproduct (rice husks) and binds it with natural polymers (like starch or gelatin) to create a biodegradable alternative to styrofoam containers. Testing centers on tensile strength, water resistance, and degradation rates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accreditations & Professional Training Section -->
+    <section id="training" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-slate-900/10">
+        <div class="max-w-6xl mx-auto space-y-12">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="font-display text-3xl font-bold text-white tracking-tight">Accreditations & Professional Training</h2>
+                <p class="text-xs text-gray-400 font-semibold mt-2 uppercase tracking-wider">Learning & Development Interventions and Specializations</p>
+            </div>
+            
+            <!-- Featured Badges -->
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="glass-panel p-6 rounded-2xl border border-white/5 border-l-4 border-amber-400 flex items-start gap-4">
+                    <span class="text-3xl bg-amber-500/10 p-3 rounded-xl text-amber-400 shrink-0">🎖️</span>
+                    <div>
+                        <span class="text-[10px] font-mono font-bold tracking-wider text-amber-400 uppercase">Core Specialization</span>
+                        <h4 class="text-white font-bold font-display text-lg mt-0.5">Certified Research Specialist (CRS)™</h4>
+                        <p class="text-xs text-gray-400 font-semibold mt-1">95.71% Rating — Visionary Research Association Inc.</p>
+                        <p class="text-[11px] text-gray-500 mt-2">Duration: 40.0 Hours | Technical Category | Jan 17, 2026 – Jan 25, 2026</p>
+                    </div>
+                </div>
+                <div class="glass-panel p-6 rounded-2xl border border-white/5 border-l-4 border-blue-400 flex items-start gap-4">
+                    <span class="text-3xl bg-blue-500/10 p-3 rounded-xl text-blue-400 shrink-0">🛡️</span>
+                    <div>
+                        <span class="text-[10px] font-mono font-bold tracking-wider text-blue-400 uppercase">Supervisory</span>
+                        <h4 class="text-white font-bold font-display text-lg mt-0.5">Safety Officer II (BOSH)</h4>
+                        <p class="text-xs text-gray-400 font-semibold mt-1">Compliant — Think Safe Consultancy and Service Corp.</p>
+                        <p class="text-[11px] text-gray-500 mt-2">Basic Occupational Safety and Health | Nov 16, 2024 – Nov 24, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Log Table View -->
+            <div class="pt-8 space-y-4">
+                <h3 class="font-display text-xl font-bold text-white flex items-center gap-2"><span class="text-xs bg-white/5 p-2 rounded-lg">📋</span> Complete L&D Intervention Log</h3>
+                <div class="overflow-x-auto glass-panel rounded-2xl border border-white/5">
+                    <table class="w-full text-left border-collapse text-xs sm:text-sm">
+                        <thead>
+                            <tr class="bg-white/5 border-b border-white/10 text-gray-400 font-mono uppercase text-[10px] tracking-wider">
+                                <th class="p-4">Program Title & Conducting Agency</th>
+                                <th class="p-4">Timeline</th>
+                                <th class="p-4 text-center">Hours</th>
+                                <th class="p-4 text-right">Type</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-white/5 text-gray-300">
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">2nd NORSU Virtual International Research Conference</span><span class="text-gray-500 text-[11px]">Negros Oriental State University (NORSU)</span></td>
+                                <td class="p-4 font-mono text-gray-400">04/19/2026 - 04/20/2026</td>
+                                <td class="p-4 text-center font-mono">16.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">The Engineering Research Blueprint: From Concept (Speaker)</span><span class="text-gray-500 text-[11px]">Fellowship Baptist College - CECS</span></td>
+                                <td class="p-4 font-mono text-gray-400">03/27/2026 - 03/27/2026</td>
+                                <td class="p-4 text-center font-mono">4.0</td>
+                                <td class="p-4 text-right"><span class="bg-purple-500/10 text-purple-400 text-[10px] px-2 py-0.5 rounded font-medium">Supervisory</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">Innovating for a Sustainable Future: ICAMEROB 2025</span><span class="text-gray-500 text-[11px]">Mechatronics and Robotics Society of the Phil.</span></td>
+                                <td class="p-4 font-mono text-gray-400">09/24/2025 - 09/26/2025</td>
+                                <td class="p-4 text-center font-mono">24.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">74th IECEP Midyear Convention & AGM74</span><span class="text-gray-500 text-[11px]">Institute of Electronics Engineers of the Phil.</span></td>
+                                <td class="p-4 font-mono text-gray-400">11/28/2024 - 11/30/2024</td>
+                                <td class="p-4 text-center font-mono">20.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">Philippine Start-Up Challenge (Regional Pitch Competition)</span><span class="text-gray-500 text-[11px]">Department of Info. and Communications Tech.</span></td>
+                                <td class="p-4 font-mono text-gray-400">10/07/2024 - 10/07/2024</td>
+                                <td class="p-4 text-center font-mono">8.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">TUPV Regional Robotics Competition (Winning Coach)</span><span class="text-gray-500 text-[11px]">Technological University of the Phil. Visayas</span></td>
+                                <td class="p-4 font-mono text-gray-400">2025 (Annual)</td>
+                                <td class="p-4 text-center font-mono">16.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">Mastering the Digits: Calculator Techniques (Speaker)</span><span class="text-gray-500 text-[11px]">Fellowship Baptist College - CECS</span></td>
+                                <td class="p-4 font-mono text-gray-400">03/07/2025 - 03/07/2025</td>
+                                <td class="p-4 text-center font-mono">4.0</td>
+                                <td class="p-4 text-right"><span class="bg-purple-500/10 text-purple-400 text-[10px] px-2 py-0.5 rounded font-medium">Supervisory</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">3rd Kabankalan ICT Summit / DTI MentorMatch Bootcamp</span><span class="text-gray-500 text-[11px]">DTI Region 6 / Kabankalan ICT Council</span></td>
+                                <td class="p-4 font-mono text-gray-400">01/2025</td>
+                                <td class="p-4 text-center font-mono">16.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">CalcuTalk 2024: Maximizing Calculator Potential (Speaker)</span><span class="text-gray-500 text-[11px]">Fellowship Baptist College - CECS</span></td>
+                                <td class="p-4 font-mono text-gray-400">2024 (Annual)</td>
+                                <td class="p-4 text-center font-mono">4.0</td>
+                                <td class="p-4 text-right"><span class="bg-purple-500/10 text-purple-400 text-[10px] px-2 py-0.5 rounded font-medium">Supervisory</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">IECEP-NOSC Provincial Interscholastic Competitions (Coach)</span><span class="text-gray-500 text-[11px]">IECEP Negros Occidental Student Chapter / UNO-R</span></td>
+                                <td class="p-4 font-mono text-gray-400">09/14/2024 - 09/14/2024</td>
+                                <td class="p-4 text-center font-mono">8.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                            <tr class="hover:bg-white/[0.02] transition">
+                                <td class="p-4 font-medium"><span class="text-white block">Workshop on Creating Publishable AI Instructional Modules</span><span class="text-gray-500 text-[11px]">Fellowship Baptist College - Research Office</span></td>
+                                <td class="p-4 font-mono text-gray-400">07/16/2024 - 07/17/2024</td>
+                                <td class="p-4 text-center font-mono">16.0</td>
+                                <td class="p-4 text-right"><span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded font-medium">Technical</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Terminal Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-slate-900/40 relative">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Consultancy Alignment Cards -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="space-y-2">
+                        <h2 class="font-display text-3xl font-bold text-white tracking-tight">Academic & Consultancy Alignment</h2>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Available for institutional alignment panels, applied hardware evaluations, statistical research reviews, engineering course designs, and tech incubation mentoring programs.
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-3 text-xs">
+                        <div class="glass-panel p-4 rounded-xl border border-white/5 flex items-center gap-2">
+                            <span class="text-amber-400">🔹</span>
+                            <span class="text-white font-medium">Embedded Infrastructure & IoT</span>
+                        </div>
+                        <div class="glass-panel p-4 rounded-xl border border-white/5 flex items-center gap-2">
+                            <span class="text-blue-400">🔹</span>
+                            <span class="text-white font-medium">Automation Control Systems</span>
+                        </div>
+                        <div class="glass-panel p-4 rounded-xl border border-white/5 flex items-center gap-2">
+                            <span class="text-emerald-400">🔹</span>
+                            <span class="text-white font-medium">Statistical Data Auditing</span>
+                        </div>
+                        <div class="glass-panel p-4 rounded-xl border border-white/5 flex items-center gap-2">
+                            <span class="text-purple-400">🔹</span>
+                            <span class="text-white font-medium">Tech Startup Coaching</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verified Network Terminal & Action Form -->
+                <div class="lg:col-span-7 glass-panel rounded-3xl p-6 md:p-8 border border-white/10 shadow-2xl relative">
+                    <div class="absolute top-0 right-8 -translate-y-1/2 bg-blue-600 text-white font-mono text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full border border-blue-400 shadow-md">
+                        Verified Network
+                    </div>
+                    
+                    <h3 class="font-display text-xl font-bold text-white mb-2">Communication Terminal</h3>
+                    <p class="text-xs text-gray-400 mb-6">Reach out through formal communication links.</p>
+                    
+                    <!-- Grid of Channels -->
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8">
+                        <a href="mailto:trimuchacelphy06@gmail.com" class="flex items-center gap-4 p-3.5 bg-black/20 hover:bg-white/5 border border-white/5 rounded-xl transition group">
+                            <span class="p-2.5 bg-blue-500/10 text-blue-400 rounded-lg group-hover:scale-110 transition">📧</span>
+                            <div class="overflow-hidden">
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Email Endpoint</p>
+                                <p class="text-xs text-white font-medium truncate">trimuchacelphy06@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+639453843695" class="flex items-center gap-4 p-3.5 bg-black/20 hover:bg-white/5 border border-white/5 rounded-xl transition group">
+                            <span class="p-2.5 bg-amber-500/10 text-amber-400 rounded-lg group-hover:scale-110 transition">📱</span>
+                            <div>
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Mobile Terminal</p>
+                                <p class="text-xs text-white font-medium">+63 945 384 3695</p>
+                            </div>
+                        </a>
+                        <div class="flex items-center gap-4 p-3.5 bg-black/20 border border-white/5 rounded-xl">
+                            <span class="p-2.5 bg-emerald-500/10 text-emerald-400 rounded-lg">📍</span>
+                            <div>
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Geographic Node</p>
+                                <p class="text-xs text-white font-medium">Kabankalan City, Negros Occidental</p>
+                            </div>
+                        </div>
+                        <a href="https://linkedin.com/in/celphy-trimucha" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-3.5 bg-black/20 hover:bg-white/5 border border-white/5 rounded-xl transition group">
+                            <span class="p-2.5 bg-cyan-500/10 text-cyan-400 rounded-lg group-hover:scale-110 transition">🔗</span>
+                            <div class="overflow-hidden">
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Professional Index</p>
+                                <p class="text-xs text-white font-medium truncate">linkedin.com/in/celphy-trimucha</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Direct Message Form -->
+                    <form class="space-y-4" onsubmit="event.preventDefault();">
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] uppercase tracking-wider font-bold text-gray-400 mb-1">Inquirer Identity</label>
+                                <input type="text" placeholder="Your Name or Institution" class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 transition">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] uppercase tracking-wider font-bold text-gray-400 mb-1">Return Endpoint</label>
+                                <input type="email" placeholder="your.email@domain.com" class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-[10px] uppercase tracking-wider font-bold text-gray-400 mb-1">Inquiry / Alignment Proposal</label>
+                            <textarea rows="3" placeholder="Outline your institutional engineering alignment request or research consultancy objectives..." class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs py-3 rounded-xl transition shadow-lg shadow-blue-600/10 font-display flex items-center justify-center gap-2">
+                            Initiate Academic Inquiry ⚡
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Layout Footer -->
+    <footer class="py-8 text-center border-t border-white/5 bg-slate-950 text-[11px] text-gray-500">
+        <p>© 2026 Engr. Celphy L. Trimucha, ECT. All Rights Reserved. Built with performance semantics.</p>
+    </footer>
+
+    <!-- Interactive Navigation Scripts -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('hidden');
+        });
+
+        const navButtons = document.querySelectorAll('.nav-btn');
+        navButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                if(!navMenu.classList.contains('hidden') && window.innerWidth < 1280) {
+                    navMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        const sections = document.querySelectorAll('section, header');
+        const navItems = document.querySelectorAll('.nav-btn');
+        
+        const options = {
+            root: null,
+            threshold: 0.15,
+            rootMargin: "-10% 0px -45% 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navItems.forEach(item => {
+                        if (item.getAttribute('data-target') === id) {
+                            item.classList.add('nav-active', 'text-white');
+                        } else {
+                            item.classList.remove('nav-active', 'text-white');
+                        }
+                    });
+                }
+            });
+        }, options);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+</body>
+</html>
